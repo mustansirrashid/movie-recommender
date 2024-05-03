@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open ("README.md","r",encoding="utf-8") as fh:
+with open ("README.md","r",encoding="utf-16") as fh:
     long_description = fh.read()
 
 AUTHOR_NAME = '999'
@@ -15,7 +15,7 @@ setup(
     description='No need to brainstorm to watch your next movie',
     long_description= long_description,
     long_description_content_type= 'text/markdown',
-    package= [SRC_REPO],
+    packages= [SRC_REPO],
     python_requires = '>=3.11',
     install_requires = LIST_OF_REQUIRMENTS
 )
